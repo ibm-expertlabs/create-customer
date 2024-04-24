@@ -16,7 +16,7 @@
         "description": "Crate a customer representation",
         "operationId": "postCreatecustomer",
         "requestBody": {
-          "description": "The request body for the operation",
+          "description": "The request body for the operation & testing out webhooks",
           "content": {
             "application/json": {
               "schema": {
@@ -95,7 +95,7 @@
                 "type": "object",
                 "properties": {
                   "phone": {
-                    "type": "string"
+                    "type": "string",
                     "pattern": "^\\d{3}-\\d{7}$"
                   },
                   "address": {
