@@ -6,14 +6,13 @@ integrationServer:
   applicationName: createcustomerrestcallingws
   releaseName: create-customer-details-rest
   license:
-    license: L-SEWB-GH63KR
+    license: L-DMRW-D3HQHQ
     use: CloudPakForIntegrationNonProduction
   service:
     endpointType: http
-  version: 12.0.9.0-r3
+  version: 12.0.11
   configurations:
     serverconf:
       - create-customer-serverconf.yaml
     policyproject:
       - create-customer-policy
-
